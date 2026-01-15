@@ -24,7 +24,7 @@ The system utilizes the **Saga Pattern** (Choreography-based) to handle distribu
 ## ⚙️ Tech Stack
 
 * **Core:** Java 17, Spring Boot 3.2
-* **Messaging:** Apache Kafka, Zookeeper
+* **Messaging:** Apache Kafka, Kraft
 * **Database:** PostgreSQL (One database per service pattern)
 * **Discovery & Routing:** Netflix Eureka, Spring Cloud Gateway
 * **Email:** Spring Mail, Thymeleaf, MailDev (Docker)
