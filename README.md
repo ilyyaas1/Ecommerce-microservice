@@ -13,7 +13,7 @@ The system utilizes the **Saga Pattern** (Choreography-based) to handle distribu
 | Service | Port | Description |
 | :--- | :--- | :--- |
 | **Discovery Server** | `8761` | Eureka Server for Service Discovery. |
-| **API Gateway** | `8080` | Unified entry point (Spring Cloud Gateway). Routes traffic. |
+| **API Gateway** | `8222` | Unified entry point (Spring Cloud Gateway). Routes traffic. |
 | **Order Service** | `8081` | Manages Order lifecycle. Producer to `order-topic`. |
 | **Payment Service** | `8082` | Consumes orders, processes payments, produces `payment-updates`. |
 | **Notification Service**| `8083` | Listens to payment success events and sends emails via SMTP. |
